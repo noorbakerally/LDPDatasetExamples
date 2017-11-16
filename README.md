@@ -111,4 +111,143 @@ Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://ope
 ## Data Info Locale
 Portal URL: [https://datainfolocale.opendatasoft.com/](https://datainfolocale.opendatasoft.com/)
 
-LDP URL (D1): [http://opensensingcity.emse.fr/ldpdfend/datainfolocale
+LDP URL (D1): [http://opensensingcity.emse.fr/ldpdfend/datainfolocale/d1/catalog](http://opensensingcity.emse.fr/ldpdfend/datainfolocale/d1/catalog)
+
+Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/datainfolocale/d1/catalog
+
+LDP URL (D2): [http://opensensingcity.emse.fr/ldpdfend/datainfolocale/d2/catalog](http://opensensingcity.emse.fr/ldpdfend/datainfolocale/d2/catalog)
+
+Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/datainfolocale/d2/catalog
+
+
+## Open Data La Haute-garonne
+Portal URL: [https://data.haute-garonne.fr](https://data.haute-garonne.fr)
+
+LDP URL (D1): [http://opensensingcity.emse.fr/ldpdfend/haute-garonne/d1/catalog](http://opensensingcity.emse.fr/ldpdfend/haute-garonne/d1/catalog)
+
+Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/haute-garonne/d1/catalog
+
+LDP URL (D2): [http://opensensingcity.emse.fr/ldpdfend/haute-garonne/d2/catalog](http://opensensingcity.emse.fr/ldpdfend/haute-garonne/d2/catalog)
+
+Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/haute-garonne/d2/catalog
+
+
+## Navitia
+Portal URL: [https://navitia.opendatasoft.com](https://navitia.opendatasoft.com)
+
+LDP URL (D1): [http://opensensingcity.emse.fr/ldpdfend/navitia/d1/catalog](http://opensensingcity.emse.fr/ldpdfend/navitia/d1/catalog)
+
+Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/navitia/d1/catalog
+
+LDP URL (D2): [http://opensensingcity.emse.fr/ldpdfend/navitia/d2/catalog](http://opensensingcity.emse.fr/ldpdfend/navitia/d2/catalog)
+
+Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/navitia/d2/catalog
+
+
+## Open Data Corsia
+Portal URL: [https://www.data.corsica](https://www.data.corsica)
+
+LDP URL (D1): [http://opensensingcity.emse.fr/ldpdfend/corsica/d1/catalog](http://opensensingcity.emse.fr/ldpdfend/corsica/d1/catalog)
+
+Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/corsica/d1/catalog
+
+LDP URL (D2): [http://opensensingcity.emse.fr/ldpdfend/corsica/d2/catalog](http://opensensingcity.emse.fr/ldpdfend/corsica/d2/catalog)
+
+Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/corsica/d2/catalog
+
+
+## Paris Data [City]
+Portal URL: [https://opendata.paris.fr](https://opendata.paris.fr)
+
+LDP URL (D1): [http://opensensingcity.emse.fr/ldpdfend/paris/d1/catalog](http://opensensingcity.emse.fr/ldpdfend/paris/d1/catalog)
+
+Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/paris/d1/catalog
+
+LDP URL (D2): [http://opensensingcity.emse.fr/ldpdfend/paris/d2/catalog](http://opensensingcity.emse.fr/ldpdfend/paris/d2/catalog)
+
+Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/paris/d2/catalog
+
+
+## Data Ratp
+Portal URL: [https://data.ratp.fr](https://data.ratp.fr)
+
+LDP URL (D1): [http://opensensingcity.emse.fr/ldpdfend/ratp/d1/catalog](http://opensensingcity.emse.fr/ldpdfend/ratp/d1/catalog)
+
+Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/ratp/d1/catalog
+
+LDP URL (D2): [http://opensensingcity.emse.fr/ldpdfend/ratp/d2/catalog](http://opensensingcity.emse.fr/ldpdfend/ratp/d2/catalog)
+
+Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/ratp/d2/catalog
+
+
+## Rennes Metropole [City]
+Portal URL: [https://data.iledefrance.fr/](https://data.iledefrance.fr/)
+
+LDP URL (D1): [http://opensensingcity.emse.fr/ldpdfend/rennesmetropole/d1/catalog](http://opensensingcity.emse.fr/ldpdfend/rennesmetropole/d1/catalog)
+
+Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/rennesmetropole/d1/catalog
+
+LDP URL (D2): [http://opensensingcity.emse.fr/ldpdfend/rennesmetropole/d2/catalog](http://opensensingcity.emse.fr/ldpdfend/rennesmetropole/d2/catalog)
+
+Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/rennesmetropole/d2/catalog
+
+
+## SNCF Open Data
+Portal URL: [https://data.iledefrance.fr/](https://data.iledefrance.fr/)
+
+LDP URL (D1): [http://opensensingcity.emse.fr/ldpdfend/sncf/d1/catalog](http://opensensingcity.emse.fr/ldpdfend/sncf/d1/catalog)
+
+Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/sncf/d1/catalog
+
+LDP URL (D2): [http://opensensingcity.emse.fr/ldpdfend/sncf/d2/catalog](http://opensensingcity.emse.fr/ldpdfend/sncf/d2/catalog)
+
+Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/sncf/d2/catalog
+
+
+## Ile de France Mobilite
+Portal URL: [https://opendata.stif.info](https://opendata.stif.info)
+
+LDP URL (D1): [http://opensensingcity.emse.fr/ldpdfend/stif/d1/catalog](http://opensensingcity.emse.fr/ldpdfend/stif/d1/catalog)
+
+Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/stif/d1/catalog
+
+LDP URL (D2): [http://opensensingcity.emse.fr/ldpdfend/stif/d2/catalog](http://opensensingcity.emse.fr/ldpdfend/stif/d2/catalog)
+
+Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/stif/d2/catalog
+
+
+## Data Toulouse Metropole [City]
+Portal URL: [https://data.toulouse-metropole.fr](https://data.toulouse-metropole.fr)
+
+LDP URL (D1): [http://opensensingcity.emse.fr/ldpdfend/toulouse/d1/catalog](http://opensensingcity.emse.fr/ldpdfend/toulouse/d1/catalog)
+
+Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/toulouse/d1/catalog
+
+LDP URL (D2): [http://opensensingcity.emse.fr/ldpdfend/toulouse/d2/catalog](http://opensensingcity.emse.fr/ldpdfend/toulouse/d2/catalog)
+
+Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/toulouse/d2/catalog
+
+
+## Ville D'Agen Open Data [City]
+Portal URL: [https://data.agen.fr](https://data.agen.fr)
+
+LDP URL (D1): [http://opensensingcity.emse.fr/ldpdfend/agen/d1/catalog](http://opensensingcity.emse.fr/ldpdfend/agen/d1/catalog)
+
+Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/agen/d1/catalog
+
+LDP URL (D2): [http://opensensingcity.emse.fr/ldpdfend/agen/d2/catalog](http://opensensingcity.emse.fr/ldpdfend/agen/d2/catalog)
+
+Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/agen/d2/catalog
+
+
+## DATA ISSY.com
+Portal URL: [https://data.issy.com](https://data.issy.com)
+
+LDP URL (D1): [http://opensensingcity.emse.fr/ldpdfend/issy/d1/catalog](http://opensensingcity.emse.fr/ldpdfend/issy/d1/catalog)
+
+Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/issy/d1/catalog
+
+LDP URL (D2): [http://opensensingcity.emse.fr/ldpdfend/issy/d2/catalog](http://opensensingcity.emse.fr/ldpdfend/issy/d2/catalog)
+
+Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/issy/d2/catalog
+
