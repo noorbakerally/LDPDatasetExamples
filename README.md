@@ -1,4 +1,4 @@
-This is repository of dcat datasets deployed. Every dcat dataset is deployed based on two designs: D1 and D2, and both can be browsed using the Angular [LDP-Browser](https://github.com/noorbakerally/angular_ldp)
+This is repository of dcat datasets deployed. Every dcat dataset is deployed based on two designs: D1 and D2, and both can be browsed using the [LDP-Browser](https://github.com/noorbakerally/angular_ldp)
 
 ## DataTourism62
 Portal URL: [https://tourisme62.opendatasoft.com](https://tourisme62.opendatasoft.com)
