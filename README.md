@@ -1,5 +1,5 @@
 ## DataTourism62
-Portal URL: [https://tourisme62.opendatasoft.com](https://tourisme62.opendatasoft.com){:target="_blank"}
+Portal URL: [https://tourisme62.opendatasoft.com](https://tourisme62.opendatasoft.com)
 
 #### LDP based on Design1:
 
