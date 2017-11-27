@@ -1,7 +1,7 @@
 Catalogs entry point 
 
   - LDP: http://opensensingcity.emse.fr/ldpdfend/designs
-  - Browse via LDP Browser: https://opensensingcity.emse.fr/ldp-browser?iri=ttp://opensensingcity.emse.fr/ldpdfend/designs
+  - Browse via LDP Browser: http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/designs
 
 ## DataTourism62
 Portal URL: [https://tourisme62.opendatasoft.com](https://tourisme62.opendatasoft.com)
