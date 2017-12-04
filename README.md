@@ -1,7 +1,61 @@
-Catalogs entry point 
+This page records LDPs generated within the following scenarios:
 
-  - LDP: http://opensensingcity.emse.fr/ldpdfend/designs
-  - Browse via LDP Browser: http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/designs
+1. Data portals in countries
+2. Parking in Grenoble
+3. DCAT catalogs from data portals in France
+
+To generate the LDPs, their LDP datasets have been generated using BlazeLDP and then exposed using InterLDP.
+
+
+
+# Data portals in different countries
+
+- Original data source (https://tinyurl.com/y7jmnea): contains a number of countries and data portals associated to them
+- Design document: https://github.com/noorbakerally/LDPDatasetExamples/blob/master/DesignDocuments/dCountryPortals.ttl 
+- LDP description: The LDP shows a number of countries and for each countries, provides data portals associated with them
+- LDP URL: http://opensensingcity.emse.fr/ldpdfend/dataportals/countries
+- LDP Browser URL: http://opensensingcity.emse.fr/ldp-browser?http://opensensingcity.emse.fr/ldpdfend/dataportals/countries	 
+
+
+
+
+# Parking in Grenoble
+
+- Original data source: The data source consists of two parts, the static data which provides general details about the parking facility and a dynamic part which provides information about its parking availability status
+
+	- static data source: http://data.metropolegrenoble.fr/ckan/dataset/parkings-relais-p-r/resource/ff54c102-b032-49b2-b4f8-9cae9fde863f
+	- dynamic data source: http://data.metropolegrenoble.fr/ckan/dataset/parkings-relais-p-r/resource/457aa891-b53e-4a5d-aa9b-1be62201c088 
+
+- Design document: https://github.com/noorbakerally/LDPDatasetExamples/blob/master/DesignDocuments/dCountryPortals.ttl 
+- LDP description: The LDP operates in virtual mode and provide data which is generated at the request time using both the static and dynamic data
+- LDP URL: http://opensensingcity.emse.fr/ldpdfend/grenoble/parkings
+- LDP Browser URL: http://opensensingcity.emse.fr/ldp-browser?http://opensensingcity.emse.fr/ldpdfend/grenoble/parkings 	
+
+
+# DCAT catalogs from data portals in France
+
+Original data source description: <a href="https://www.opendatasoft.com/a-comprehensive-list-of-all-open-data-portals-around-the-world/#/france">OpenDataSoft</a> provides open data portals for a number of countries. We choose the data portals from France and download their DCAT dataset wherever it is available. We obtained 22 DCAT datasets for 22 data portals and for each of them, we deploy 5 LDPs based on the following designs:
+
+- Design1:
+	- Description: Design1 describes an LDP where for each catalog and dataset, an LDP container is generated and for each distribution, an LDP RDF source is generated. For an LDP container generated for a particular catalog, there is a Null LDP container `datasets` to groups all the LDP containers generated for the datasets of the catalog. Also, for an LDP container generated for a particular dataset, there is a Null LDP container `distributions` to groups all the LDP containers generated for the distributions of the datasets.
+	- URL: https://github.com/noorbakerally/LDPDatasetExamples/blob/master/DesignDocuments/d1.ttl
+- Design2:
+	- Description: Design2 is similar to Design1 except that it does not contains additional Null LDP containers for datasets and distributions.
+	- URL:  https://github.com/noorbakerally/LDPDatasetExamples/blob/master/DesignDocuments/d2.ttl 
+- Design3:
+	- Description: Design3 describes an LDP where the datasets in a catalogs are organized in terms of the languages of the datasets 	 	
+	- URL:  	 https://github.com/noorbakerally/LDPDatasetExamples/blob/master/DesignDocuments/d3.ttl
+- Design4:
+	- Description: Design4 describes an LDP where the datasets in a catalogs are organized in terms of the languages of the datasets 	
+	- URL: 	 https://github.com/noorbakerally/LDPDatasetExamples/blob/master/DesignDocuments/d4.ttl
+- Design5:
+ 	- Description: Design5 is somewhat a merge of Design3 and Design4 whereby datasets of a catalogs are organized in terms of both languages and themes
+	- URL: 	 https://github.com/noorbakerally/LDPDatasetExamples/blob/master/DesignDocuments/d5.ttl
+
+For the above 5 LDP designs, we deploy 5 LDPs for each 22 DCAT datasets (110 in all). A description of all the 110 LDPs is available in RDF at . Using this RDF file, we generate another LDP based on the design document which serves as an entry point for all the 110 LDPs. The entry point LDP can be found at http://opensensingcity.emse.fr/ldpdfend/designs and can be viewed via the LDP browser at http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/designs
+
+All the remaining 110 LDPs can described below
+
 
 ## DataTourism62
 Portal URL: [https://tourisme62.opendatasoft.com](https://tourisme62.opendatasoft.com)
