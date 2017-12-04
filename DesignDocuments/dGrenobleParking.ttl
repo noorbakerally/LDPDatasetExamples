@@ -1,0 +1,34 @@
+@prefix : <http://opensensingcity.emse.fr/LDPDesignVocabulary/> .
+@prefix data: <http://opensensingcity.emse.fr/LDPDesign/data/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#>
+@prefix pk:    <http://opensensingcity.emse.fr/ontologies/parking/> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix sosa:  <http://www.w3.org/ns/sosa/> .
+
+data:parkingsCM a :NullContainerMap;
+    :iriTemplate "parkings";
+    :nonContainerMap data:parkingCM;
+.
+
+data:parkingCM a :NonContainerMap;
+    :iriTemplate "$path(res,2)$";
+    :resourceMap data:parkingRM;
+.
+
+data:parkingRM a :ResourceMap;
+    :resourceQuery "{ ?res a pk:ParkingFacility .}";
+    :graphQuery "CONSTRUCT { ?res ?p ?o . ?res pk:nbAvailableParkingSpaces ?av } WHERE {  {SELECT ?p ?o WHERE { ?res ?p ?o .  FILTER (?p not in (sosa:observation)) }  } UNION { SELECT ?av WHERE { ?res sosa:observation/pk:nbAvailableParkingSpaces ?av; sosa:observation/time:inTimePosition/time:numericPosition ?time } ORDER BY DESC(?time) LIMIT 1 }  }";
+    :dataSource data:DataSource1;
+    :dataSource data:DataSource2;
+.
+
+
+data:DataSource1 a :RDFFileDataSource;
+    :location "http://data.metromobilite.fr/api/bbox/json?types=PAR";
+    :liftingRule "https://raw.githubusercontent.com/OpenSensingCity/DatasetsLiftingRules/master/grenoble/parking/grenoble_parking_dynamic.rqg";
+.
+
+data:DataSource2 a :RDFFileDataSource;
+    :location "http://data.metromobilite.fr/api/dyn/PAR/json";
+    :liftingRule "https://raw.githubusercontent.com/OpenSensingCity/DatasetsLiftingRules/master/grenoble/parking/grenoble_parking_static.rqg";
+.

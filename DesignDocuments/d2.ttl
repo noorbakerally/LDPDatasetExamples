@@ -1,0 +1,29 @@
+@prefix :     <http://opensensingcity.emse.fr/LDPDesignVocabulary/> .
+@prefix data:     <http://opensensingcity.emse.fr/LDPDesign/data/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#>
+
+data:catalogCM a :ContainerMap;
+    :iriTemplate "$path(res,2)$";
+    :resourceMap data:catalogRM;
+    :containerMap data:datasetCM .
+
+data:datasetCM a :ContainerMap;
+    :iriTemplate "$path(res,4)$";
+    :nonContainerMap data:distributionNM;
+    :resourceMap data:datasetRM .
+
+data:distributionNM a :NonContainerMap;
+    :iriTemplate "$path(res,4)$";
+    :resourceMap data:distributionRM .
+
+data:distributionRM a :ResourceMap;
+    :resourceQuery "{ $parent$ dcat:distribution ?res .}";
+    :graphQuery "CONSTRUCT { ?res ?p ?o . } WHERE {  ?res ?p ?o . }" .
+
+data:catalogRM a :ResourceMap;
+    :resourceQuery "{ ?res a dcat:Catalog .}";
+    :graphQuery "CONSTRUCT { ?res ?p ?o . } WHERE {  ?res ?p ?o . FILTER (?p not in (dcat:dataset)) }" .
+
+data:datasetRM a :ResourceMap;
+    :resourceQuery "{ $parent$ dcat:dataset ?res .}";
+    :graphQuery "CONSTRUCT { ?res ?p ?o . } WHERE {  ?res ?p ?o . FILTER (?p not in (dcat:distribution)) }" .

@@ -1,0 +1,63 @@
+@prefix : <http://opensensingcity.emse.fr/LDPDesignVocabulary/> .
+@prefix data: <http://opensensingcity.emse.fr/LDPDesign/data/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+
+data:catalogCM a :ContainerMap;
+    :iriTemplate "$path(res,2)$";
+    :resourceMap data:catalogRM;
+    :containerMap data:themesCM;
+.
+
+data:themesCM a :NullContainerMap;
+    :iriTemplate "themes";
+    :containerMap data:themeCM;
+.
+
+data:themeCM a :ContainerMap;
+    :iriTemplate "$path(res,2)$";
+    :resourceMap data:themeRM;
+    :containerMap data:datasetsCM;
+.
+
+data:datasetsCM a :NullContainerMap;
+    :iriTemplate "datasets";
+    :containerMap data:datasetCM;
+.
+
+data:datasetCM a :ContainerMap;
+    :iriTemplate "$path(res,4)$";
+    :resourceMap data:datasetRM;
+    :containerMap data:distributionsCM;
+
+.
+
+data:distributionsCM a :NullContainerMap;
+    :iriTemplate "distributions";
+    :nonContainerMap data:distributionNM;
+.
+
+data:distributionNM a :NonContainerMap;
+    :iriTemplate "$path(res,4)$";
+    :resourceMap data:distributionRM;
+.
+
+data:catalogRM a :ResourceMap;
+    :resourceQuery "{ ?res a dcat:Catalog .}";
+    :graphQuery "CONSTRUCT { ?res ?p ?o . } WHERE {  ?res ?p ?o . FILTER (?p not in (dcat:dataset)) }";
+.
+
+data:themeRM a :ResourceMap;
+    :resourceQuery "{ $parent.parent$ dcat:themeTaxonomy ?taxonomy . ?taxonomy skos:topConceptOf ?res .}";
+    :graphQuery "CONSTRUCT { ?res ?p ?o . } WHERE {  ?res ?p ?o . }";
+ .
+
+data:datasetRM a :ResourceMap;
+    :resourceQuery "{ ?res a dcat:Dataset; dcat:theme $parent.parent$ .}";
+    :graphQuery "CONSTRUCT { ?res ?p ?o . } WHERE {  ?res ?p ?o . FILTER (?p not in (dcat:distribution)) }";
+.
+
+data:distributionRM a :ResourceMap;
+    :resourceQuery "{ $parent.parent$ dcat:distribution ?res .}";
+    :graphQuery "CONSTRUCT { ?res ?p ?o . } WHERE {  ?res ?p ?o . }";
+.

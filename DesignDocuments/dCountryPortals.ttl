@@ -1,0 +1,42 @@
+@prefix : <http://opensensingcity.emse.fr/LDPDesignVocabulary/> .
+@prefix data: <http://opensensingcity.emse.fr/LDPDesign/data/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+
+data:countriesCM a :NullContainerMap;
+     :iriTemplate "countries";
+     :containerMap data:countryCM;
+.
+
+data:countryCM a :ContainerMap;
+    :iriTemplate "$path(res,1)$";
+    :resourceMap data:countryRM;
+    :containerMap data:dataPortalsCM;
+.
+
+data:dataPortalsCM a :NullContainerMap;
+    :iriTemplate "dataportals";
+    :containerMap data:dataPortalCM;
+.
+
+data:dataPortalCM a :ContainerMap;
+    :iriQueryTemplate "{ BIND (replace(str(?res),'http://','') as ?oldtemplate) BIND (replace(?oldtemplate,'/','.') as ?template) }";
+    :resourceMap data:dataPortalRM;
+.
+
+data:dataPortalRM a :ResourceMap;
+    :resourceQuery "{ ?res a dcat:Catalog; dbo:country $parent.parent$ . }";
+    :graphQuery "CONSTRUCT { ?res ?p ?o . } WHERE {  ?res ?p ?o . }";
+    :dataSource data:DataSource1;
+.
+
+data:countryRM a :ResourceMap;
+    :resourceQuery "{ ?catalog dbo:country ?res . }";
+    :graphQuery "CONSTRUCT { ?res ?p ?o . } WHERE {  ?res ?p ?o . }";
+    :dataSource data:DataSource1;
+.
+
+data:DataSource1 a :RDFFileDataSource;
+    :location "file:///home/bakerally/Downloads/allCountriesDataPortals.ttl";
+.
