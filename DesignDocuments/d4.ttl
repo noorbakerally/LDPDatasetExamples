@@ -48,16 +48,16 @@ data:catalogRM a :ResourceMap;
 .
 
 data:themeRM a :ResourceMap;
-    :resourceQuery "{ $parent.parent$ dcat:themeTaxonomy ?taxonomy . ?taxonomy skos:topConceptOf ?res .}";
+    :resourceQuery "{ ?{parent.parent} dcat:themeTaxonomy ?taxonomy . ?taxonomy skos:topConceptOf ?res .}";
     :graphQuery "CONSTRUCT { ?res ?p ?o . } WHERE {  ?res ?p ?o . }";
  .
 
 data:datasetRM a :ResourceMap;
-    :resourceQuery "{ ?res a dcat:Dataset; dcat:theme $parent.parent$ .}";
+    :resourceQuery "{ ?res a dcat:Dataset; dcat:theme ?{parent.parent} .}";
     :graphQuery "CONSTRUCT { ?res ?p ?o . } WHERE {  ?res ?p ?o . FILTER (?p not in (dcat:distribution)) }";
 .
 
 data:distributionRM a :ResourceMap;
-    :resourceQuery "{ $parent.parent$ dcat:distribution ?res .}";
+    :resourceQuery "{ ?{parent.parent} dcat:distribution ?res .}";
     :graphQuery "CONSTRUCT { ?res ?p ?o . } WHERE {  ?res ?p ?o . }";
 .

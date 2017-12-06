@@ -54,15 +54,15 @@ data:languageRM a :ResourceMap;
  .
 
 data:datasetRM a :ResourceMap;
-    :resourceQuery "{ ?res a dcat:Dataset; dct:language $parent.parent$ .}";
+    :resourceQuery "{ ?res a dcat:Dataset; dct:language ?{parent.parent} .}";
     :graphQuery "CONSTRUCT { ?res ?p ?o . } WHERE {  ?res ?p ?o . FILTER (?p not in (dcat:distribution)) }";
 .
 
 data:distributionRM a :ResourceMap;
-    :resourceQuery "{ $parent.parent$ dcat:distribution ?res .}";
+    :resourceQuery "{ ?{parent.parent} dcat:distribution ?res .}";
     :graphQuery "CONSTRUCT { ?res ?p ?o . } WHERE {  ?res ?p ?o . }";
 .
 
 data:DataSource2 a :RDFFileDataSource;
-    :location "file:///home/noor/Documents/repositories/github/LanguageRDF/graph.ttl";
+    :location "https://raw.githubusercontent.com/noorbakerally/LanguageRDF/master/graph.ttl";
 .

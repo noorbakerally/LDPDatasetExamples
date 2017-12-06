@@ -25,7 +25,7 @@ data:distributionNM a :NonContainerMap;
     :resourceMap data:distributionRM .
 
 data:distributionRM a :ResourceMap;
-    :resourceQuery "{ $parent.parent$ dcat:distribution ?res .}";
+    :resourceQuery "{ ?{parent.parent} dcat:distribution ?res .}";
     :graphQuery "CONSTRUCT { ?res ?p ?o . } WHERE {  ?res ?p ?o . }";
     :dataSource data:DataSource1 .
 
@@ -35,6 +35,6 @@ data:catalogRM a :ResourceMap;
     :dataSource data:DataSource1 .
 
 data:datasetRM a :ResourceMap;
-    :resourceQuery "{ $parent.parent$ dcat:dataset ?res .}";
+    :resourceQuery "{ ?{parent.parent} dcat:dataset ?res .}";
     :graphQuery "CONSTRUCT { ?res ?p ?o . } WHERE {  ?res ?p ?o . FILTER (?p not in (dcat:distribution)) }";
     :dataSource data:DataSource1 .
