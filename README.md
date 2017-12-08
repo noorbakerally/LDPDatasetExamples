@@ -48,7 +48,6 @@ For the above 5 LDP designs, we deploy 5 LDPs for each 22 DCAT datasets (110 in 
 
 All the remaining 110 LDPs can described below
 
-
 ### DataTourism62
 Portal URL: [https://tourisme62.opendatasoft.com](https://tourisme62.opendatasoft.com)
 
@@ -77,34 +76,44 @@ Portal URL: [https://tourisme62.opendatasoft.com](https://tourisme62.opendatasof
 - URL:http://opensensingcity.emse.fr/ldpdfend/tourism62/d5/catalog
 - Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/tourism62/d5/catalog
 
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/tourism62/d6/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/tourism62/d6/classes
+
 
 ### Open Data Angers [City]
 Portal URL: [https://data.angers.fr/explore/?sort=modified](https://data.angers.fr/explore/?sort=modified)
 
 #### LDP based on Design1:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/angers/d1/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/angers/d1/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/angers/d1/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/angers/d1/classes
 
 #### LDP based on Design2:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/angers/d2/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/angers/d2/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/angers/d2/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/angers/d2/classes
 
 #### LDP based on Design3:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/angers/d3/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/angers/d3/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/angers/d3/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/angers/d3/classes
 
 #### LDP based on Design4:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/angers/d4/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/angers/d4/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/angers/d4/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/angers/d4/classes
 
 #### LDP based on Design5:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/angers/d5/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/angers/d5/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/angers/d5/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/angers/d5/classes
+
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/angers/d6/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/angers/d6/classes
 
 
 ### Bistrotdepays
@@ -112,28 +121,33 @@ Portal URL: [https://bistrotdepays.opendatasoft.com](https://bistrotdepays.opend
 
 #### LDP based on Design1:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/bistrotdepays/d1/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/bistrotdepays/d1/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/bistrotdepays/d1/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/bistrotdepays/d1/classes
 
 #### LDP based on Design2:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/bistrotdepays/d2/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/bistrotdepays/d2/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/bistrotdepays/d2/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/bistrotdepays/d2/classes
 
 #### LDP based on Design3:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/bistrotdepays/d3/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/bistrotdepays/d3/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/bistrotdepays/d3/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/bistrotdepays/d3/classes
 
 #### LDP based on Design4:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/bistrotdepays/d4/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/bistrotdepays/d4/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/bistrotdepays/d4/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/bistrotdepays/d4/classes
 
 #### LDP based on Design5:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/bistrotdepays/d5/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/bistrotdepays/d5/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/bistrotdepays/d5/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/bistrotdepays/d5/classes
+
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/bistrotdepays/d6/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/bistrotdepays/d6/classes
 
 
 ### dataNova
@@ -141,28 +155,33 @@ Portal URL: [https://datanova.legroupe.laposte.fr](https://datanova.legroupe.lap
 
 #### LDP based on Design1:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/datanova/d1/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/datanova/d1/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/datanova/d1/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/datanova/d1/classes
 
 #### LDP based on Design2:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/datanova/d2/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/datanova/d2/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/datanova/d2/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/datanova/d2/classes
 
 #### LDP based on Design3:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/datanova/d3/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/datanova/d3/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/datanova/d3/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/datanova/d3/classes
 
 #### LDP based on Design4:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/datanova/d4/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/datanova/d4/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/datanova/d4/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/datanova/d4/classes
 
 #### LDP based on Design5:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/datanova/d5/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/datanova/d5/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/datanova/d5/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/datanova/d5/classes
+
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/datanova/d6/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/datanova/d6/classes
 
 
 ### Data Sarthe
@@ -170,28 +189,33 @@ Portal URL: [https://data.sarthe.fr](https://data.sarthe.fr)
 
 #### LDP based on Design1:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/sarthe/d1/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/sarthe/d1/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/sarthe/d1/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/sarthe/d1/classes
 
 #### LDP based on Design2:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/sarthe/d2/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/sarthe/d2/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/sarthe/d2/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/sarthe/d2/classes
 
 #### LDP based on Design3:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/sarthe/d3/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/sarthe/d3/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/sarthe/d3/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/sarthe/d3/classes
 
 #### LDP based on Design4:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/sarthe/d4/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/sarthe/d4/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/sarthe/d4/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/sarthe/d4/classes
 
 #### LDP based on Design5:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/sarthe/d5/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/sarthe/d5/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/sarthe/d5/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/sarthe/d5/classes
+
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/sarthe/d6/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/sarthe/d6/classes
 
 
 ### Data Enedis
@@ -199,28 +223,33 @@ Portal URL: [https://data.enedis.fr](https://data.enedis.fr)
 
 #### LDP based on Design1:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/enedis/d1/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/enedis/d1/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/enedis/d1/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/enedis/d1/classes
 
 #### LDP based on Design2:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/enedis/d2/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/enedis/d2/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/enedis/d2/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/enedis/d2/classes
 
 #### LDP based on Design3:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/enedis/d3/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/enedis/d3/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/enedis/d3/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/enedis/d3/classes
 
 #### LDP based on Design4:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/enedis/d4/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/enedis/d4/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/enedis/d4/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/enedis/d4/classes
 
 #### LDP based on Design5:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/enedis/d5/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/enedis/d5/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/enedis/d5/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/enedis/d5/classes
+
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/enedis/d6/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/enedis/d6/classes
 
 
 ### Open data hauts-de-seine
@@ -228,28 +257,33 @@ Portal URL: [https://opendata.hauts-de-seine.fr](https://opendata.hauts-de-seine
 
 #### LDP based on Design1:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/hauts-de-seine/d1/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/hauts-de-seine/d1/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/hauts-de-seine/d1/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/hauts-de-seine/d1/classes
 
 #### LDP based on Design2:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/hauts-de-seine/d2/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/hauts-de-seine/d2/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/hauts-de-seine/d2/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/hauts-de-seine/d2/classes
 
 #### LDP based on Design3:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/hauts-de-seine/d3/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/hauts-de-seine/d3/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/hauts-de-seine/d3/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/hauts-de-seine/d3/classes
 
 #### LDP based on Design4:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/hauts-de-seine/d4/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/hauts-de-seine/d4/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/hauts-de-seine/d4/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/hauts-de-seine/d4/classes
 
 #### LDP based on Design5:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/hauts-de-seine/d5/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/hauts-de-seine/d5/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/hauts-de-seine/d5/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/hauts-de-seine/d5/classes
+
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/hauts-de-seine/d6/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/hauts-de-seine/d6/classes
 
 
 ### Grand Poitiers Open Data [City]
@@ -257,28 +291,33 @@ Portal URL: [https://data.grandpoitiers.fr](https://data.grandpoitiers.fr)
 
 #### LDP based on Design1:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/grandpoitiers/d1/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/grandpoitiers/d1/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/grandpoitiers/d1/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/grandpoitiers/d1/classes
 
 #### LDP based on Design2:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/grandpoitiers/d2/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/grandpoitiers/d2/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/grandpoitiers/d2/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/grandpoitiers/d2/classes
 
 #### LDP based on Design3:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/grandpoitiers/d3/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/grandpoitiers/d3/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/grandpoitiers/d3/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/grandpoitiers/d3/classes
 
 #### LDP based on Design4:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/grandpoitiers/d4/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/grandpoitiers/d4/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/grandpoitiers/d4/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/grandpoitiers/d4/classes
 
 #### LDP based on Design5:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/grandpoitiers/d5/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/grandpoitiers/d5/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/grandpoitiers/d5/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/grandpoitiers/d5/classes
+
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/grandpoitiers/d6/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/grandpoitiers/d6/classes
 
 
 ### Data Ile de France
@@ -286,28 +325,33 @@ Portal URL: [https://data.iledefrance.fr/](https://data.iledefrance.fr/)
 
 #### LDP based on Design1:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/iledefrance/d1/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/iledefrance/d1/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/iledefrance/d1/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/iledefrance/d1/classes
 
 #### LDP based on Design2:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/iledefrance/d2/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/iledefrance/d2/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/iledefrance/d2/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/iledefrance/d2/classes
 
 #### LDP based on Design3:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/iledefrance/d3/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/iledefrance/d3/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/iledefrance/d3/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/iledefrance/d3/classes
 
 #### LDP based on Design4:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/iledefrance/d4/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/iledefrance/d4/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/iledefrance/d4/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/iledefrance/d4/classes
 
 #### LDP based on Design5:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/iledefrance/d5/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/iledefrance/d5/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/iledefrance/d5/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/iledefrance/d5/classes
+
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/iledefrance/d6/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/iledefrance/d6/classes
 
 
 ### Data Info Locale
@@ -315,28 +359,33 @@ Portal URL: [https://datainfolocale.opendatasoft.com/](https://datainfolocale.op
 
 #### LDP based on Design1:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/datainfolocale/d1/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/datainfolocale/d1/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/datainfolocale/d1/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/datainfolocale/d1/classes
 
 #### LDP based on Design2:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/datainfolocale/d2/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/datainfolocale/d2/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/datainfolocale/d2/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/datainfolocale/d2/classes
 
 #### LDP based on Design3:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/datainfolocale/d3/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/datainfolocale/d3/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/datainfolocale/d3/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/datainfolocale/d3/classes
 
 #### LDP based on Design4:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/datainfolocale/d4/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/datainfolocale/d4/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/datainfolocale/d4/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/datainfolocale/d4/classes
 
 #### LDP based on Design5:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/datainfolocale/d5/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/datainfolocale/d5/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/datainfolocale/d5/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/datainfolocale/d5/classes
+
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/datainfolocale/d6/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/datainfolocale/d6/classes
 
 
 ### Open Data La Haute-garonne
@@ -344,28 +393,33 @@ Portal URL: [https://data.haute-garonne.fr](https://data.haute-garonne.fr)
 
 #### LDP based on Design1:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/haute-garonne/d1/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/haute-garonne/d1/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/haute-garonne/d1/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/haute-garonne/d1/classes
 
 #### LDP based on Design2:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/haute-garonne/d2/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/haute-garonne/d2/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/haute-garonne/d2/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/haute-garonne/d2/classes
 
 #### LDP based on Design3:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/haute-garonne/d3/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/haute-garonne/d3/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/haute-garonne/d3/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/haute-garonne/d3/classes
 
 #### LDP based on Design4:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/haute-garonne/d4/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/haute-garonne/d4/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/haute-garonne/d4/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/haute-garonne/d4/classes
 
 #### LDP based on Design5:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/haute-garonne/d5/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/haute-garonne/d5/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/haute-garonne/d5/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/haute-garonne/d5/classes
+
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/haute-garonne/d6/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/haute-garonne/d6/classes
 
 
 ### Navitia
@@ -373,28 +427,33 @@ Portal URL: [https://navitia.opendatasoft.com](https://navitia.opendatasoft.com)
 
 #### LDP based on Design1:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/navitia/d1/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/navitia/d1/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/navitia/d1/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/navitia/d1/classes
 
 #### LDP based on Design2:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/navitia/d2/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/navitia/d2/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/navitia/d2/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/navitia/d2/classes
 
 #### LDP based on Design3:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/navitia/d3/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/navitia/d3/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/navitia/d3/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/navitia/d3/classes
 
 #### LDP based on Design4:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/navitia/d4/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/navitia/d4/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/navitia/d4/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/navitia/d4/classes
 
 #### LDP based on Design5:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/navitia/d5/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/navitia/d5/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/navitia/d5/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/navitia/d5/classes
+
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/navitia/d6/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/navitia/d6/classes
 
 
 ### Open Data Corsia
@@ -402,28 +461,33 @@ Portal URL: [https://www.data.corsica](https://www.data.corsica)
 
 #### LDP based on Design1:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/corsica/d1/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/corsica/d1/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/corsica/d1/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/corsica/d1/classes
 
 #### LDP based on Design2:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/corsica/d2/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/corsica/d2/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/corsica/d2/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/corsica/d2/classes
 
 #### LDP based on Design3:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/corsica/d3/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/corsica/d3/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/corsica/d3/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/corsica/d3/classes
 
 #### LDP based on Design4:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/corsica/d4/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/corsica/d4/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/corsica/d4/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/corsica/d4/classes
 
 #### LDP based on Design5:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/corsica/d5/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/corsica/d5/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/corsica/d5/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/corsica/d5/classes
+
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/corsica/d6/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/corsica/d6/classes
 
 
 ### Paris Data [City]
@@ -431,28 +495,33 @@ Portal URL: [https://opendata.paris.fr](https://opendata.paris.fr)
 
 #### LDP based on Design1:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/paris/d1/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/paris/d1/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/paris/d1/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/paris/d1/classes
 
 #### LDP based on Design2:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/paris/d2/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/paris/d2/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/paris/d2/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/paris/d2/classes
 
 #### LDP based on Design3:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/paris/d3/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/paris/d3/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/paris/d3/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/paris/d3/classes
 
 #### LDP based on Design4:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/paris/d4/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/paris/d4/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/paris/d4/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/paris/d4/classes
 
 #### LDP based on Design5:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/paris/d5/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/paris/d5/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/paris/d5/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/paris/d5/classes
+
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/paris/d6/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/paris/d6/classes
 
 
 ### Data Ratp
@@ -460,28 +529,33 @@ Portal URL: [https://data.ratp.fr](https://data.ratp.fr)
 
 #### LDP based on Design1:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/ratp/d1/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/ratp/d1/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/ratp/d1/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/ratp/d1/classes
 
 #### LDP based on Design2:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/ratp/d2/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/ratp/d2/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/ratp/d2/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/ratp/d2/classes
 
 #### LDP based on Design3:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/ratp/d3/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/ratp/d3/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/ratp/d3/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/ratp/d3/classes
 
 #### LDP based on Design4:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/ratp/d4/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/ratp/d4/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/ratp/d4/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/ratp/d4/classes
 
 #### LDP based on Design5:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/ratp/d5/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/ratp/d5/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/ratp/d5/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/ratp/d5/classes
+
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/ratp/d6/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/ratp/d6/classes
 
 
 ### Rennes Metropole [City]
@@ -489,28 +563,33 @@ Portal URL: [https://data.iledefrance.fr/](https://data.iledefrance.fr/)
 
 #### LDP based on Design1:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/rennesmetropole/d1/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/rennesmetropole/d1/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/rennesmetropole/d1/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/rennesmetropole/d1/classes
 
 #### LDP based on Design2:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/rennesmetropole/d2/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/rennesmetropole/d2/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/rennesmetropole/d2/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/rennesmetropole/d2/classes
 
 #### LDP based on Design3:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/rennesmetropole/d3/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/rennesmetropole/d3/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/rennesmetropole/d3/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/rennesmetropole/d3/classes
 
 #### LDP based on Design4:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/rennesmetropole/d4/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/rennesmetropole/d4/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/rennesmetropole/d4/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/rennesmetropole/d4/classes
 
 #### LDP based on Design5:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/rennesmetropole/d5/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/rennesmetropole/d5/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/rennesmetropole/d5/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/rennesmetropole/d5/classes
+
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/rennesmetropole/d6/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/rennesmetropole/d6/classes
 
 
 ### SNCF Open Data
@@ -518,28 +597,33 @@ Portal URL: [https://data.iledefrance.fr/](https://data.iledefrance.fr/)
 
 #### LDP based on Design1:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/sncf/d1/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/sncf/d1/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/sncf/d1/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/sncf/d1/classes
 
 #### LDP based on Design2:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/sncf/d2/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/sncf/d2/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/sncf/d2/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/sncf/d2/classes
 
 #### LDP based on Design3:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/sncf/d3/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/sncf/d3/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/sncf/d3/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/sncf/d3/classes
 
 #### LDP based on Design4:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/sncf/d4/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/sncf/d4/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/sncf/d4/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/sncf/d4/classes
 
 #### LDP based on Design5:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/sncf/d5/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/sncf/d5/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/sncf/d5/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/sncf/d5/classes
+
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/sncf/d6/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/sncf/d6/classes
 
 
 ### Ile de France Mobilite
@@ -547,28 +631,33 @@ Portal URL: [https://opendata.stif.info](https://opendata.stif.info)
 
 #### LDP based on Design1:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/stif/d1/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/stif/d1/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/stif/d1/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/stif/d1/classes
 
 #### LDP based on Design2:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/stif/d2/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/stif/d2/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/stif/d2/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/stif/d2/classes
 
 #### LDP based on Design3:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/stif/d3/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/stif/d3/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/stif/d3/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/stif/d3/classes
 
 #### LDP based on Design4:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/stif/d4/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/stif/d4/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/stif/d4/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/stif/d4/classes
 
 #### LDP based on Design5:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/stif/d5/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/stif/d5/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/stif/d5/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/stif/d5/classes
+
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/stif/d6/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/stif/d6/classes
 
 
 ### Data Toulouse Metropole [City]
@@ -576,28 +665,33 @@ Portal URL: [https://data.toulouse-metropole.fr](https://data.toulouse-metropole
 
 #### LDP based on Design1:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/toulouse/d1/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/toulouse/d1/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/toulouse/d1/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/toulouse/d1/classes
 
 #### LDP based on Design2:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/toulouse/d2/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/toulouse/d2/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/toulouse/d2/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/toulouse/d2/classes
 
 #### LDP based on Design3:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/toulouse/d3/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/toulouse/d3/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/toulouse/d3/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/toulouse/d3/classes
 
 #### LDP based on Design4:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/toulouse/d4/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/toulouse/d4/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/toulouse/d4/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/toulouse/d4/classes
 
 #### LDP based on Design5:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/toulouse/d5/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/toulouse/d5/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/toulouse/d5/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/toulouse/d5/classes
+
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/toulouse/d6/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/toulouse/d6/classes
 
 
 ### Ville D'Agen Open Data [City]
@@ -605,28 +699,33 @@ Portal URL: [https://data.agen.fr](https://data.agen.fr)
 
 #### LDP based on Design1:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/agen/d1/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/agen/d1/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/agen/d1/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/agen/d1/classes
 
 #### LDP based on Design2:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/agen/d2/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/agen/d2/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/agen/d2/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/agen/d2/classes
 
 #### LDP based on Design3:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/agen/d3/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/agen/d3/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/agen/d3/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/agen/d3/classes
 
 #### LDP based on Design4:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/agen/d4/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/agen/d4/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/agen/d4/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/agen/d4/classes
 
 #### LDP based on Design5:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/agen/d5/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/agen/d5/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/agen/d5/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/agen/d5/classes
+
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/agen/d6/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/agen/d6/classes
 
 
 ### DATA ISSY.com
@@ -634,25 +733,32 @@ Portal URL: [https://data.issy.com](https://data.issy.com)
 
 #### LDP based on Design1:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/issy/d1/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/issy/d1/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/issy/d1/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/issy/d1/classes
 
 #### LDP based on Design2:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/issy/d2/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/issy/d2/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/issy/d2/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/issy/d2/classes
 
 #### LDP based on Design3:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/issy/d3/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/issy/d3/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/issy/d3/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/issy/d3/classes
 
 #### LDP based on Design4:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/issy/d4/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/issy/d4/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/issy/d4/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/issy/d4/classes
 
 #### LDP based on Design5:
 
-- URL:http://opensensingcity.emse.fr/ldpdfend/issy/d5/catalog
-- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/issy/d5/catalog
+- URL:http://opensensingcity.emse.fr/ldpdfend/issy/d5/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/issy/d5/classes
+
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/issy/d6/classes
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/issy/d6/classes
+
+
