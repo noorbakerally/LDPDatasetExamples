@@ -48,7 +48,6 @@ For the above 5 LDP designs, we deploy 5 LDPs for each 22 DCAT datasets (110 in 
 
 All the remaining 110 LDPs can described below
 
-
 ### DataTourism62
 Portal URL: [https://tourisme62.opendatasoft.com](https://tourisme62.opendatasoft.com)
 
@@ -76,6 +75,11 @@ Portal URL: [https://tourisme62.opendatasoft.com](https://tourisme62.opendatasof
 
 - URL:http://opensensingcity.emse.fr/ldpdfend/tourism62/d5/catalog
 - Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/tourism62/d5/catalog
+
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/tourism62/d6/catalog
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/tourism62/d6/catalog
 
 
 ### Open Data Angers [City]
@@ -106,6 +110,11 @@ Portal URL: [https://data.angers.fr/explore/?sort=modified](https://data.angers.
 - URL:http://opensensingcity.emse.fr/ldpdfend/angers/d5/catalog
 - Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/angers/d5/catalog
 
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/angers/d6/catalog
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/angers/d6/catalog
+
 
 ### Bistrotdepays
 Portal URL: [https://bistrotdepays.opendatasoft.com](https://bistrotdepays.opendatasoft.com)
@@ -134,6 +143,11 @@ Portal URL: [https://bistrotdepays.opendatasoft.com](https://bistrotdepays.opend
 
 - URL:http://opensensingcity.emse.fr/ldpdfend/bistrotdepays/d5/catalog
 - Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/bistrotdepays/d5/catalog
+
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/bistrotdepays/d6/catalog
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/bistrotdepays/d6/catalog
 
 
 ### dataNova
@@ -164,6 +178,11 @@ Portal URL: [https://datanova.legroupe.laposte.fr](https://datanova.legroupe.lap
 - URL:http://opensensingcity.emse.fr/ldpdfend/datanova/d5/catalog
 - Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/datanova/d5/catalog
 
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/datanova/d6/catalog
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/datanova/d6/catalog
+
 
 ### Data Sarthe
 Portal URL: [https://data.sarthe.fr](https://data.sarthe.fr)
@@ -192,6 +211,11 @@ Portal URL: [https://data.sarthe.fr](https://data.sarthe.fr)
 
 - URL:http://opensensingcity.emse.fr/ldpdfend/sarthe/d5/catalog
 - Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/sarthe/d5/catalog
+
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/sarthe/d6/catalog
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/sarthe/d6/catalog
 
 
 ### Data Enedis
@@ -222,6 +246,11 @@ Portal URL: [https://data.enedis.fr](https://data.enedis.fr)
 - URL:http://opensensingcity.emse.fr/ldpdfend/enedis/d5/catalog
 - Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/enedis/d5/catalog
 
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/enedis/d6/catalog
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/enedis/d6/catalog
+
 
 ### Open data hauts-de-seine
 Portal URL: [https://opendata.hauts-de-seine.fr](https://opendata.hauts-de-seine.fr)
@@ -250,6 +279,11 @@ Portal URL: [https://opendata.hauts-de-seine.fr](https://opendata.hauts-de-seine
 
 - URL:http://opensensingcity.emse.fr/ldpdfend/hauts-de-seine/d5/catalog
 - Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/hauts-de-seine/d5/catalog
+
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/hauts-de-seine/d6/catalog
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/hauts-de-seine/d6/catalog
 
 
 ### Grand Poitiers Open Data [City]
@@ -280,6 +314,11 @@ Portal URL: [https://data.grandpoitiers.fr](https://data.grandpoitiers.fr)
 - URL:http://opensensingcity.emse.fr/ldpdfend/grandpoitiers/d5/catalog
 - Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/grandpoitiers/d5/catalog
 
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/grandpoitiers/d6/catalog
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/grandpoitiers/d6/catalog
+
 
 ### Data Ile de France
 Portal URL: [https://data.iledefrance.fr/](https://data.iledefrance.fr/)
@@ -308,6 +347,11 @@ Portal URL: [https://data.iledefrance.fr/](https://data.iledefrance.fr/)
 
 - URL:http://opensensingcity.emse.fr/ldpdfend/iledefrance/d5/catalog
 - Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/iledefrance/d5/catalog
+
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/iledefrance/d6/catalog
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/iledefrance/d6/catalog
 
 
 ### Data Info Locale
@@ -338,6 +382,11 @@ Portal URL: [https://datainfolocale.opendatasoft.com/](https://datainfolocale.op
 - URL:http://opensensingcity.emse.fr/ldpdfend/datainfolocale/d5/catalog
 - Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/datainfolocale/d5/catalog
 
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/datainfolocale/d6/catalog
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/datainfolocale/d6/catalog
+
 
 ### Open Data La Haute-garonne
 Portal URL: [https://data.haute-garonne.fr](https://data.haute-garonne.fr)
@@ -366,6 +415,11 @@ Portal URL: [https://data.haute-garonne.fr](https://data.haute-garonne.fr)
 
 - URL:http://opensensingcity.emse.fr/ldpdfend/haute-garonne/d5/catalog
 - Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/haute-garonne/d5/catalog
+
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/haute-garonne/d6/catalog
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/haute-garonne/d6/catalog
 
 
 ### Navitia
@@ -396,6 +450,11 @@ Portal URL: [https://navitia.opendatasoft.com](https://navitia.opendatasoft.com)
 - URL:http://opensensingcity.emse.fr/ldpdfend/navitia/d5/catalog
 - Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/navitia/d5/catalog
 
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/navitia/d6/catalog
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/navitia/d6/catalog
+
 
 ### Open Data Corsia
 Portal URL: [https://www.data.corsica](https://www.data.corsica)
@@ -424,6 +483,11 @@ Portal URL: [https://www.data.corsica](https://www.data.corsica)
 
 - URL:http://opensensingcity.emse.fr/ldpdfend/corsica/d5/catalog
 - Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/corsica/d5/catalog
+
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/corsica/d6/catalog
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/corsica/d6/catalog
 
 
 ### Paris Data [City]
@@ -454,6 +518,11 @@ Portal URL: [https://opendata.paris.fr](https://opendata.paris.fr)
 - URL:http://opensensingcity.emse.fr/ldpdfend/paris/d5/catalog
 - Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/paris/d5/catalog
 
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/paris/d6/catalog
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/paris/d6/catalog
+
 
 ### Data Ratp
 Portal URL: [https://data.ratp.fr](https://data.ratp.fr)
@@ -482,6 +551,11 @@ Portal URL: [https://data.ratp.fr](https://data.ratp.fr)
 
 - URL:http://opensensingcity.emse.fr/ldpdfend/ratp/d5/catalog
 - Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/ratp/d5/catalog
+
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/ratp/d6/catalog
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/ratp/d6/catalog
 
 
 ### Rennes Metropole [City]
@@ -512,6 +586,11 @@ Portal URL: [https://data.iledefrance.fr/](https://data.iledefrance.fr/)
 - URL:http://opensensingcity.emse.fr/ldpdfend/rennesmetropole/d5/catalog
 - Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/rennesmetropole/d5/catalog
 
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/rennesmetropole/d6/catalog
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/rennesmetropole/d6/catalog
+
 
 ### SNCF Open Data
 Portal URL: [https://data.iledefrance.fr/](https://data.iledefrance.fr/)
@@ -540,6 +619,11 @@ Portal URL: [https://data.iledefrance.fr/](https://data.iledefrance.fr/)
 
 - URL:http://opensensingcity.emse.fr/ldpdfend/sncf/d5/catalog
 - Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/sncf/d5/catalog
+
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/sncf/d6/catalog
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/sncf/d6/catalog
 
 
 ### Ile de France Mobilite
@@ -570,6 +654,11 @@ Portal URL: [https://opendata.stif.info](https://opendata.stif.info)
 - URL:http://opensensingcity.emse.fr/ldpdfend/stif/d5/catalog
 - Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/stif/d5/catalog
 
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/stif/d6/catalog
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/stif/d6/catalog
+
 
 ### Data Toulouse Metropole [City]
 Portal URL: [https://data.toulouse-metropole.fr](https://data.toulouse-metropole.fr)
@@ -598,6 +687,11 @@ Portal URL: [https://data.toulouse-metropole.fr](https://data.toulouse-metropole
 
 - URL:http://opensensingcity.emse.fr/ldpdfend/toulouse/d5/catalog
 - Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/toulouse/d5/catalog
+
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/toulouse/d6/catalog
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/toulouse/d6/catalog
 
 
 ### Ville D'Agen Open Data [City]
@@ -628,6 +722,11 @@ Portal URL: [https://data.agen.fr](https://data.agen.fr)
 - URL:http://opensensingcity.emse.fr/ldpdfend/agen/d5/catalog
 - Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/agen/d5/catalog
 
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/agen/d6/catalog
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/agen/d6/catalog
+
 
 ### DATA ISSY.com
 Portal URL: [https://data.issy.com](https://data.issy.com)
@@ -656,3 +755,8 @@ Portal URL: [https://data.issy.com](https://data.issy.com)
 
 - URL:http://opensensingcity.emse.fr/ldpdfend/issy/d5/catalog
 - Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/issy/d5/catalog
+
+#### LDP based on Design6:
+
+- URL:http://opensensingcity.emse.fr/ldpdfend/issy/d6/catalog
+- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/issy/d6/catalog
