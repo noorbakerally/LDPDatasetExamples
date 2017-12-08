@@ -43,6 +43,9 @@ Original data source description: <a href="https://www.opendatasoft.com/a-compre
 - Design5:
  	- Description: Design5 is somewhat a merge of Design3 and Design4 whereby datasets of a catalogs are organized in terms of both languages and themes
 	- URL: 	 https://github.com/noorbakerally/LDPDatasetExamples/blob/master/DesignDocuments/d5.ttl
+- Design6:
+ 	- Description: Design6 is a generic design. For each class, an LDP container is created. In it, an LDP container which contains an LDP RDF source for every instance of the class and an LDP container which contains LDP containers for every subclass of the class are created. The <a href="https://github.com/noorbakerally/LDPDatasetExamples/blob/master/DesignDocuments/d6.ttl#L42">definition for creating subclasses</a> is recursive so that subclasses containers are recursively created till leaves.  
+	- URL: 	 https://github.com/noorbakerally/LDPDatasetExamples/blob/master/DesignDocuments/d6.ttl
 
 For the above 5 LDP designs, we deploy 5 LDPs for each 22 DCAT datasets (110 in all). A description of all the 110 LDPs is available in RDF at . Using this RDF file, we generate another LDP based on the design document which serves as an entry point for all the 110 LDPs. The entry point LDP can be found at http://opensensingcity.emse.fr/ldpdfend/designs and can be viewed via the LDP browser at http://opensensingcity.emse.fr/ldp-browser?iri=http://opensensingcity.emse.fr/ldpdfend/designs
 
