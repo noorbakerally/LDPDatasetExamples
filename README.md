@@ -26,7 +26,7 @@ All LDPs mentioned on this page can be browsed using GeminiLDP (our LDP browser)
 	- static data source: http://data.metropolegrenoble.fr/ckan/dataset/parkings-relais-p-r/resource/ff54c102-b032-49b2-b4f8-9cae9fde863f
 	- dynamic data source: http://data.metropolegrenoble.fr/ckan/dataset/parkings-relais-p-r/resource/457aa891-b53e-4a5d-aa9b-1be62201c088 
 
-- Design document: https://github.com/noorbakerally/LDPDatasetExamples/blob/master/DesignDocuments/dCountryPortals.ttl 
+- Design document: https://github.com/noorbakerally/LDPDatasetExamples/blob/master/DesignDocuments/dGrenobleParking.ttl
 - LDP description: The LDP operates in virtual mode and provide data which is generated at the request time using both the static and dynamic data
 - LDP URL: http://opensensingcity.emse.fr/ldpdfend/grenoble/parkings
 - LDP Browser URL: http://opensensingcity.emse.fr/ldp-browser?http://opensensingcity.emse.fr/ldpdfend/grenoble/parkings 	
