@@ -1,13 +1,12 @@
 import json
-baseLDP = "http://opensensingcity.emse.fr/ldpdfend/<context>/catalog"
 portals = json.load(open("PortalDetails.json","r"))
-sources = json.load(open("../sources.json","r"))
+sources = json.load(open("sources.json","r"))
 for portal in portals:
 	readableName = portal["readableName"]
 	portalUrl = portal["portalUrl"]
 	name = portal["name"]
 
-	print "### "+readableName
+	print "##### "+readableName
 	print "Portal URL: ["+portalUrl+"](" + portalUrl+ ")"
 	for source in sources:
 		if source["name"] == name:
@@ -15,6 +14,7 @@ for portal in portals:
 	print	
 	
 	for i in range(1,9):
+		baseLDP = "http://opensensingcity.emse.fr/ldpdfend/<context>/catalog"
 		if i == 7:
 			continue
 		if i == 8:
@@ -22,7 +22,7 @@ for portal in portals:
 		if i == 6:
 			baseLDP = "http://opensensingcity.emse.fr/ldpdfend/<context>/classes"
 		newName = baseLDP.replace("<context>",name+"/d"+str(i))
-		print "#### LDP based on Design"+str(i)+":"
+		print "###### LDP based on Design"+str(i)+":"
 		print
 		print "- URL:" + newName 
 		print "- Browse via LDP Browser http://opensensingcity.emse.fr/ldp-browser?iri="+ newName
