@@ -22,7 +22,7 @@ The table below summarizes how the different experiments satisfy the requirement
 |-------------|:--:|:--:|:--:|:--:|:--:|
 | [Experiment1](#experiment1) | &#10004;   |    |    |    |  &#10004;  |
 | [Experiment2](#experiment2) | &#10004;   |    |    |    | &#10004;   |
-| Experiment3 | &#10004;    | &#10004;   |    |    | &#10004;   |
+| [Experiment3](#experiment3) | &#10004;    | &#10004;   |    |    | &#10004;   |
 | Experiment4 | &#10004;    |  &#10004;  | &#10004;   |    |&#10004;    |
 | Experiment5 | &#10004;    |    |    |    | &#10004;   |
 
@@ -30,10 +30,10 @@ The table below summarizes how the different experiments satisfy the requirement
 In all experiments, all the LDPs generated are fully compatible with the LDP standard. But in particular, Experiment2 shows the static LDP datasets generated using ShapeLDP can be deployed on any compatible LDP server accepting POST requests. Thus, our approach for generating LDP is also compatible with all existing LDP server implementations.
 
 ### R2: Open to heterogeneous data sources
-In both [Experiment2](#experiment2) and Experiment3, R2 is satisfied by generating LDPs from data sources in two formats: CSV and JSON.
+In both [Experiment2](#experiment2) and [Experiment3](#experiment3), R2 is satisfied by generating LDPs from data sources in two formats: CSV and JSON.
 
 ### R3: Cope with hosting constraints
-In Experiment3, we satisfy R3 by showing that the LDP is capable of always fetching fresh data from the real-time data dynamically from the original source without having the data in its environment 
+In [Experiment3](#experiment3), we satisfy R3 by showing that the LDP is capable of always fetching fresh data from the real-time data dynamically from the original source without having the data in its environment 
 
 ### R4: Reusability of the design document
 In [Experiment1](#experiment1), we satisfy R4 by showing that the same design document can be reused over multiple data sources (22 in all)
