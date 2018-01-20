@@ -1,0 +1,87 @@
+[{
+		"readableName": "DataTourism62",
+		"portalUrl": "https://tourisme62.opendatasoft.com",
+		"name": "tourism62"
+	},
+	{
+		"readableName": "Open Data Angers [City]",
+		"portalUrl": "https://data.angers.fr/explore/?sort=modified",
+		"name": "angers"
+	}, {
+		"readableName": "Bistrotdepays",
+		"portalUrl": "https://bistrotdepays.opendatasoft.com",
+		"name": "bistrotdepays"
+	}, {
+		"readableName": "dataNova",
+		"portalUrl": "https://datanova.legroupe.laposte.fr",
+		"name": "datanova"
+	}, {
+		"readableName": "Data Sarthe",
+		"portalUrl": "https://data.sarthe.fr",
+		"name": "sarthe"
+	}, {
+		"readableName": "Data Enedis",
+		"portalUrl": "https://data.enedis.fr",
+		"name": "enedis"
+	}, {
+		"readableName": "Open data hauts-de-seine",
+		"portalUrl": "https://opendata.hauts-de-seine.fr",
+		"name": "hauts-de-seine"
+	}, {
+		"readableName": "Grand Poitiers Open Data [City]",
+		"portalUrl": "https://data.grandpoitiers.fr",
+		"name": "grandpoitiers"
+	}, {
+		"readableName": "Data Ile de France",
+		"portalUrl": "https://data.iledefrance.fr/",
+		"name": "iledefrance"
+	}, {
+		"readableName": "Data Info Locale",
+		"portalUrl": "https://datainfolocale.opendatasoft.com/",
+		"name": "datainfolocale"
+	}, {
+		"readableName": "Open Data La Haute-garonne",
+		"portalUrl": "https://data.haute-garonne.fr",
+		"name": "haute-garonne"
+	}, {
+		"readableName": "Navitia",
+		"portalUrl": "https://navitia.opendatasoft.com",
+		"name": "navitia"
+	}, {
+		"readableName": "Open Data Corsia",
+		"portalUrl": "https://www.data.corsica",
+		"name": "corsica"
+	}, {
+		"readableName": "Paris Data [City]",
+		"portalUrl": "https://opendata.paris.fr",
+		"name": "paris"
+	}, {
+		"readableName": "Data Ratp",
+		"portalUrl": "https://data.ratp.fr",
+		"name": "ratp"
+	}, {
+		"readableName": "Rennes Metropole [City]",
+		"portalUrl": "https://data.iledefrance.fr/",
+		"name": "rennesmetropole"
+	}, {
+		"readableName": "SNCF Open Data",
+		"portalUrl": "https://data.iledefrance.fr/",
+		"name": "sncf"
+	}, {
+		"readableName": "Ile de France Mobilite",
+		"portalUrl": "https://opendata.stif.info",
+		"name": "stif"
+	}, {
+		"readableName": "Data Toulouse Metropole [City]",
+		"portalUrl": "https://data.toulouse-metropole.fr",
+		"name": "toulouse"
+	}, {
+		"readableName": "Ville D'Agen Open Data [City]",
+		"portalUrl": "https://data.agen.fr",
+		"name": "agen"
+	}, {
+		"readableName": "DATA ISSY.com",
+		"portalUrl": "https://data.issy.com",
+		"name": "issy"
+	}
+]
