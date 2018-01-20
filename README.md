@@ -962,7 +962,7 @@ Resulting LDP:
 - LDP URL: http://opensensingcity.emse.fr/ldpdfend/grenoble/parkings
 - Browser LDP via LDP Browser at: http://opensensingcity.emse.fr/ldp-browser?http://opensensingcity.emse.fr/ldpdfend/grenoble/parkings
 
-### Experiment 5
+### Experiment5
 In this experiment, the two generic designs documents are used to deploy the [BBC wildlife dataset](https://github.com/noorbakerally/bbc-wildlife).
 
 #### Data source description
