@@ -1,0 +1,93 @@
+[
+    {
+		"name": "tourism62",
+		"url": "https://tourisme62.opendatasoft.com/api/v2/catalog/exports/ttl"
+	},
+	{
+		"name": "angers",
+		"url": "https://data.angers.fr/api/v2/catalog/exports/ttl"
+	},
+	{
+		"name": "bistrotdepays",
+		"url": "https://bistrotdepays.opendatasoft.com/api/v2/catalog/exports/ttl"
+	},
+	{
+		"name": "datanova",
+		"url": "https://datanova.legroupe.laposte.fr/api/v2/catalog/exports/ttl"
+	},
+	{
+		"name": "sarthe",
+		"url": "https://data.sarthe.fr/api/v2/catalog/exports/ttl"
+	},
+	{
+		"name": "enedis",
+		"url": "https://data.enedis.fr/api/v2/catalog/exports/ttl"
+	},
+	{
+		"name": "hauts-de-seine",
+		"url": "https://opendata.hauts-de-seine.fr/api/v2/catalog/exports/ttl"
+	},
+	{
+		"name": "grandpoitiers",
+		"url": "https://data.grandpoitiers.fr/api/v2/catalog/exports/ttl"
+	},
+	{
+		"name": "iledefrance",
+		"url": "https://data.iledefrance.fr/api/v2/catalog/exports/ttl"
+	},
+	{
+		"name": "datainfolocale",
+		"url": "https://datainfolocale.opendatasoft.com/api/v2/catalog/exports/ttl"
+	},
+	{
+		"name": "haute-garonne",
+		"url": "https://data.haute-garonne.fr/api/v2/catalog/exports/ttl"
+	},
+	{
+		"name": "navitia",
+		"url": "https://navitia.opendatasoft.com/api/v2/catalog/exports/ttl"
+	},
+	{
+		"name": "corsica",
+		"url": "https://www.data.corsica/api/v2/catalog/exports/ttl"
+	},
+	{
+		"name": "paris",
+		"url": "https://opendata.paris.fr/api/v2/catalog/exports/ttl"
+	},
+	{
+		"name": "ratp",
+		"url": "https://data.ratp.fr/api/v2/catalog/exports/ttl"
+	},
+	{
+		"name": "rennesmetropole",
+		"url": "https://data.rennesmetropole.fr/api/v2/catalog/exports/ttl"
+	},
+	{
+		"name": "sncf",
+		"url": "https://ressources.data.sncf.com/api/v2/catalog/exports/ttl"
+	},
+	{
+		"name": "rennesmetropole",
+		"url": "https://data.rennesmetropole.fr/api/v2/catalog/exports/ttl"
+	},
+	{
+		"name": "stif",
+		"url": "https://opendata.stif.info/api/v2/catalog/exports/ttl"
+	},
+	{
+
+		"name": "toulouse",
+		"url": "https://data.toulouse-metropole.fr/api/v2/catalog/exports/ttl"
+	},
+	{
+
+		"name": "agen",
+		"url": "https://data.agen.fr/api/v2/catalog/exports/ttl"
+	},
+	{
+
+		"name": "issy",
+		"url": "https://data.issy.com/api/v2/catalog/exports/ttl"
+	}
+]
