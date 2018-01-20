@@ -23,7 +23,7 @@ The table below summarizes how the different experiments satisfy the requirement
 | [Experiment1](#experiment1) | &#10004;   |    |    |    |  &#10004;  |
 | [Experiment2](#experiment2) | &#10004;   |    |    |    | &#10004;   |
 | [Experiment3](#experiment3) | &#10004;    | &#10004;   |    |    | &#10004;   |
-| Experiment4 | &#10004;    |  &#10004;  | &#10004;   |    |&#10004;    |
+| [Experiment4](#experiment4) | &#10004;    |  &#10004;  | &#10004;   |    |&#10004;    |
 | Experiment5 | &#10004;    |    |    |    | &#10004;   |
 
 ### R1: Compatibility with the LDP standard
@@ -41,7 +41,7 @@ In [Experiment1](#experiment1), we satisfy R4 by showing that the same design do
 ### R5: Automatization of LDP Generation
 The automatization the generation of LDPs involves two parts: LDP design automatization and LDP deployment automatization. In our experiments, we satisfy by the latter either by directing exposing static (or dynamic) LDP datasets via InterLDP or deploying the LDP resources from them on an LDP server accepting POST requests using POSTerLDP.
 
-The automatization of LDP design is not yet achieved. But our generic designs (Design6 and Design8) can be directly used on data sources that uses OWL/RDFS vocabularies. The extra constraints on the data sources is that there should be cycles on in the class hierarchy else theoritically, ShapeLDP will try to generate an infinite static (or dynamic) LDP dataset. 
+The automatization of LDP design is not yet achieved. But in [Experiment5](#experiment5), our generic designs (Design6 and Design8) are used directly on data sources that uses OWL/RDFS vocabularies. The extra constraints on the data sources is that there should be cycles on in the class hierarchy else theoritically, ShapeLDP will try to generate an infinite static (or dynamic) LDP dataset. 
 
 
 ## Experiments
