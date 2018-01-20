@@ -20,7 +20,7 @@ The table below summarizes how the different experiments satisfy the requirement
 
 |             | R1 | R2 | R3 | R4 | R5 |
 |-------------|:--:|:--:|:--:|:--:|:--:|
-| Experiment1 | &#10004;   |    |    |    |  &#10004;  |
+| [Experiment1](#experiment1) | &#10004;   |    |    |    |  &#10004;  |
 | Experiment2 | &#10004;   |    |    |    | &#10004;   |
 | Experiment3 | &#10004;    | &#10004;   |    |    | &#10004;   |
 | Experiment4 | &#10004;    |  &#10004;  | &#10004;   |    |&#10004;    |
@@ -36,7 +36,7 @@ In both Experiment2 and Experiment3, R2 is satisfied by generating LDPs from dat
 In Experiment3, we satisfy R3 by showing that the LDP is capable of always fetching fresh data from the real-time data dynamically from the original source without having the data in its environment 
 
 ### R4: Reusability of the design document
-In Experiment1, we satisfy R4 by showing that the same design document can be reused over multiple data sources (22 in all)
+In [Experiment1](#experiment1), we satisfy R4 by showing that the same design document can be reused over multiple data sources (22 in all)
 
 ### R5: Automatization of LDP Generation
 The automatization the generation of LDPs involves two parts: LDP design automatization and LDP deployment automatization. In our experiments, we satisfy by the latter either by directing exposing static (or dynamic) LDP datasets via InterLDP or deploying the LDP resources from them on an LDP server accepting POST requests using POSTerLDP.
@@ -927,7 +927,7 @@ The DCAT dataset from [Bistrodepays Open Data Portal](https://bistrotdepays.open
 Source URL: https://bistrotdepays.opendatasoft.com/api/v2/catalog/exports/ttl
 
 #### Design document description
-The design document used is Design2 as it was used in Experiment1
+The design document used is Design2 as it was used in [Experiment1](#experiment1)
 
 #### Deployment description
 ShapeLDP is used to generate the static LDP dataset from using the design document with respect to the data sources. Then POSTerLDP consumes the static LDP dataset, generates LDP POST requests for LDP resources from the static LDP dataset and sends them on 2 LDP servers that are instances of Apache Marmotta and Gold respectively.
@@ -969,7 +969,7 @@ In this experiment, the two generic designs documents are used to deploy the [BB
 Source URL: https://github.com/noorbakerally/bbc-wildlife
 
 #### Design document description
-The two generic designs, Design6 and Design8 are used as in Experiment1
+The two generic designs, Design6 and Design8 are used as in [Experiment1](#experiment1)
 
 #### Deployment description
 For the same data source, ShapeLDP is used to generate the static LDP dataset using the two design documents  to generate two different static LDP datasets that are then deployed via InterLDP. 
