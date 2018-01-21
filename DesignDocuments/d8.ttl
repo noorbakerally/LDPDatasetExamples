@@ -1,6 +1,6 @@
 
-@prefix :     <http://opensensingcity.emse.fr/LDPDesignVocabulary/> .
-@prefix data:     <http://opensensingcity.emse.fr/LDPDesign/data/> .
+@prefix : <https://w3id.org/ldpdl/#> .
+@prefix data: <http://opensensingcity.emse.fr/LDPDesign/data/> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
@@ -13,7 +13,7 @@ data:resourcesCM a :NullContainerMap;
 .
 
 data:classCM a :ContainerMap;
-    :iriQueryTemplate "{BIND(str(?{res}) as ?nres) BIND(if(contains(?nres, '#'),true,false) as ?hash) BIND(SUBSTR(?nres,STRLEN(?nres),1) as ?lstr) BIND(if(?lstr='/',SUBSTR(?nres,0,STRLEN(?nres)),?nres) as ?fres) BIND(if(?hash,REPLACE(?fres,'.*#',''),REPLACE(?fres,'.*/','')) as ?template)}";
+    :slugQueryTemplate "{BIND(str(?{res}) as ?nres) BIND(if(contains(?nres, '#'),true,false) as ?hash) BIND(SUBSTR(?nres,STRLEN(?nres),1) as ?lstr) BIND(if(?lstr='/',SUBSTR(?nres,0,STRLEN(?nres)),?nres) as ?fres) BIND(if(?hash,REPLACE(?fres,'.*#',''),REPLACE(?fres,'.*/','')) as ?template)}";
     :resourceMap data:classRM;
     :nonContainerMap data:subclasseCM;
     :nonContainerMap data:instanceCM;
@@ -24,7 +24,7 @@ data:classRM a :ResourceMap;
     :graphQuery "CONSTRUCT { ?{res} ?p ?o . } WHERE {  ?{res} ?p ?o . }" .
 
 data:instanceCM a :NonContainerMap;
-    :iriQueryTemplate "{BIND(str(?{res}) as ?nres) BIND(if(contains(?nres, '#'),true,false) as ?hash) BIND(SUBSTR(?nres,STRLEN(?nres),1) as ?lstr) BIND(if(?lstr='/',SUBSTR(?nres,0,STRLEN(?nres)),?nres) as ?fres) BIND(if(?hash,REPLACE(?fres,'.*#',''),REPLACE(?fres,'.*/','')) as ?template)}";
+    :slugQueryTemplate "{BIND(str(?{res}) as ?nres) BIND(if(contains(?nres, '#'),true,false) as ?hash) BIND(SUBSTR(?nres,STRLEN(?nres),1) as ?lstr) BIND(if(?lstr='/',SUBSTR(?nres,0,STRLEN(?nres)),?nres) as ?fres) BIND(if(?hash,REPLACE(?fres,'.*#',''),REPLACE(?fres,'.*/','')) as ?template)}";
     :resourceMap data:instanceRM .
 
 data:instanceRM a :ResourceMap;
@@ -32,7 +32,7 @@ data:instanceRM a :ResourceMap;
     :graphQuery "CONSTRUCT { ?{res} ?p ?o . } WHERE {  ?{res} ?p ?o . }" .
 
 data:subclassCM a :ContainerMap;
-    :iriQueryTemplate "{BIND(str(?{res}) as ?nres) BIND(if(contains(?nres, '#'),true,false) as ?hash) BIND(SUBSTR(?nres,STRLEN(?nres),1) as ?lstr) BIND(if(?lstr='/',SUBSTR(?nres,0,STRLEN(?nres)),?nres) as ?fres) BIND(if(?hash,REPLACE(?fres,'.*#',''),REPLACE(?fres,'.*/','')) as ?template)}";
+    :slugQueryTemplate "{BIND(str(?{res}) as ?nres) BIND(if(contains(?nres, '#'),true,false) as ?hash) BIND(SUBSTR(?nres,STRLEN(?nres),1) as ?lstr) BIND(if(?lstr='/',SUBSTR(?nres,0,STRLEN(?nres)),?nres) as ?fres) BIND(if(?hash,REPLACE(?fres,'.*#',''),REPLACE(?fres,'.*/','')) as ?template)}";
     :resourceMap data:subClassRM;
     :nonContainerMap data:instancesCM;
     :containerMap data:subclassCM .

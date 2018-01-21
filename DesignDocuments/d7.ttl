@@ -1,4 +1,4 @@
-@prefix :     <http://opensensingcity.emse.fr/LDPDesignVocabulary/> .
+@prefix : <https://w3id.org/ldpdl/#> .
 @prefix data:     <http://opensensingcity.emse.fr/LDPDesign/data/> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 
