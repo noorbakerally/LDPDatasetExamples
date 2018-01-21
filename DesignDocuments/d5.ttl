@@ -5,78 +5,78 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 
 data:catalogCM a :ContainerMap;
-    :iriTemplate "$path(res,2)$";
+    :slugTemplate "$path(?{res},2)$";
     :resourceMap data:catalogRM;
     :containerMap data:languagesCM;
 .
 
 data:languagesCM a :NullContainerMap;
-    :iriTemplate "languages";
+    :slugTemplate "languages";
     :containerMap data:languageCM;
 .
 
 data:languageCM a :ContainerMap;
-    :iriQueryTemplate "{ ?res skos:prefLabel ?title . BIND (STR(?title)  AS ?template) FILTER (lang(?title) = 'en') }";
+    :iriQueryTemplate "{ ?{res} skos:prefLabel ?title . BIND (STR(?title)  AS ?template) FILTER (lang(?title) = 'en') }";
     :resourceMap data:languageRM;
     :containerMap data:themesCM;
 .
 
 data:themesCM a :NullContainerMap;
-    :iriTemplate "themes";
+    :slugTemplate "themes";
     :containerMap data:themeCM;
 .
 
 data:themeCM a :ContainerMap;
-    :iriTemplate "$path(res,2)$";
+    :slugTemplate "$path(?{res},2)$";
     :resourceMap data:themeRM;
     :containerMap data:datasetsCM;
 .
 
 data:datasetsCM a :NullContainerMap;
-    :iriTemplate "datasets";
+    :slugTemplate "datasets";
     :containerMap data:datasetCM;
 .
 
 data:datasetCM a :ContainerMap;
-    :iriTemplate "$path(res,4)$";
+    :slugTemplate "$path(?{res},4)$";
     :resourceMap data:datasetRM;
     :containerMap data:distributionsCM;
 .
 
 data:distributionsCM a :NullContainerMap;
-    :iriTemplate "distributions";
+    :slugTemplate "distributions";
     :nonContainerMap data:distributionNM;
 .
 
 data:distributionNM a :NonContainerMap;
-    :iriTemplate "$path(res,4)$";
+    :slugTemplate "$path(?{res},4)$";
     :resourceMap data:distributionRM;
 .
 
 data:catalogRM a :ResourceMap;
-    :resourceQuery "{ ?res a dcat:Catalog .}";
-    :graphQuery "CONSTRUCT { ?res ?p ?o . } WHERE {  ?res ?p ?o . FILTER (?p not in (dcat:dataset)) }";
+    :resourceQuery "{ ?{res} a dcat:Catalog .}";
+    :graphQuery "CONSTRUCT { ?{res} ?p ?o . } WHERE {  ?{res} ?p ?o . FILTER (?p not in (dcat:dataset)) }";
 .
 
 data:languageRM a :ResourceMap;
-    :resourceQuery "{ ?x a dcat:Dataset;dct:language ?res .}";
-    :graphQuery "CONSTRUCT { ?res ?p ?o . } WHERE {  ?res ?p ?o . }";
+    :resourceQuery "{ ?x a dcat:Dataset;dct:language ?{res} .}";
+    :graphQuery "CONSTRUCT { ?{res} ?p ?o . } WHERE {  ?{res} ?p ?o . }";
     :dataSource data:DataSource2;
  .
 
  data:themeRM a :ResourceMap;
-     :resourceQuery "{ ?dataset a dcat:Dataset;dct:language <http://id.loc.gov/vocabulary/iso639-1/fr>;.?catalog dcat:dataset ?dataset;dcat:themeTaxonomy ?taxonomy;.?taxonomy skos:topConceptOf ?res . }";
-     :graphQuery "CONSTRUCT { ?res ?p ?o . } WHERE {  ?res ?p ?o . }";
+     :resourceQuery "{ ?dataset a dcat:Dataset;dct:language <http://id.loc.gov/vocabulary/iso639-1/fr>;.?catalog dcat:dataset ?dataset;dcat:themeTaxonomy ?taxonomy;.?taxonomy skos:topConceptOf ?{res} . }";
+     :graphQuery "CONSTRUCT { ?{res} ?p ?o . } WHERE {  ?{res} ?p ?o . }";
   .
 
  data:datasetRM a :ResourceMap;
-     :resourceQuery "{ ?res a dcat:Dataset;dct:language ?{parent.parent.parent.parent};dcat:theme ?{parent.parent} .}";
-     :graphQuery "CONSTRUCT { ?res ?p ?o . } WHERE {  ?res ?p ?o . FILTER (?p not in (dcat:distribution)) }";
+     :resourceQuery "{ ?{res} a dcat:Dataset;dct:language ?{parent.parent.parent.parent};dcat:theme ?{parent.parent} .}";
+     :graphQuery "CONSTRUCT { ?{res} ?p ?o . } WHERE {  ?{res} ?p ?o . FILTER (?p not in (dcat:distribution)) }";
  .
 
  data:distributionRM a :ResourceMap;
-     :resourceQuery "{ ?{parent.parent} dcat:distribution ?res .}";
-     :graphQuery "CONSTRUCT { ?res ?p ?o . } WHERE {  ?res ?p ?o . }";
+     :resourceQuery "{ ?{parent.parent} dcat:distribution ?{res} .}";
+     :graphQuery "CONSTRUCT { ?{res} ?p ?o . } WHERE {  ?{res} ?p ?o . }";
  .
 
 data:DataSource2 a :RDFFileDataSource;

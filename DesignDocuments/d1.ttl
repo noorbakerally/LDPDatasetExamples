@@ -3,38 +3,38 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#>
 
 data:catalogCM a :ContainerMap;
-    :iriTemplate "$path(res,2)$";
+    :slugTemplate "$path(?{res},2)$";
     :resourceMap data:catalogRM;
     :containerMap data:datasetsCM .
 
 data:datasetsCM a :NullContainerMap;
     :containerMap data:datasetCM;
-    :iriTemplate "datasets" .
+    :slugTemplate "datasets" .
 
 data:datasetCM a :ContainerMap;
-    :iriTemplate "$path(res,4)$";
+    :slugTemplate "$path(?{res},4)$";
     :containerMap data:distributionsCM;
     :resourceMap data:datasetRM .
 
 data:distributionsCM a :NullContainerMap;
     :nonContainerMap data:distributionNM;
-    :iriTemplate "distributions" .
+    :slugTemplate "distributions" .
 
 data:distributionNM a :NonContainerMap;
-    :iriTemplate "$path(res,4)$";
+    :slugTemplate "$path(?{res},4)$";
     :resourceMap data:distributionRM .
 
 data:distributionRM a :ResourceMap;
-    :resourceQuery "{ ?{parent.parent} dcat:distribution ?res .}";
-    :graphQuery "CONSTRUCT { ?res ?p ?o . } WHERE {  ?res ?p ?o . }";
+    :resourceQuery "{ ?{parent.parent} dcat:distribution ?{res} .}";
+    :graphQuery "CONSTRUCT { ?{res} ?p ?o . } WHERE {  ?{res} ?p ?o . }";
     :dataSource data:DataSource1 .
 
 data:catalogRM a :ResourceMap;
-    :resourceQuery "{ ?res a dcat:Catalog .}";
-    :graphQuery "CONSTRUCT { ?res ?p ?o . } WHERE {  ?res ?p ?o . FILTER (?p not in (dcat:dataset)) }";
+    :resourceQuery "{ ?{res} a dcat:Catalog .}";
+    :graphQuery "CONSTRUCT { ?{res} ?p ?o . } WHERE {  ?{res} ?p ?o . FILTER (?p not in (dcat:dataset)) }";
     :dataSource data:DataSource1 .
 
 data:datasetRM a :ResourceMap;
-    :resourceQuery "{ ?{parent.parent} dcat:dataset ?res .}";
-    :graphQuery "CONSTRUCT { ?res ?p ?o . } WHERE {  ?res ?p ?o . FILTER (?p not in (dcat:distribution)) }";
+    :resourceQuery "{ ?{parent.parent} dcat:dataset ?{res} .}";
+    :graphQuery "CONSTRUCT { ?{res} ?p ?o . } WHERE {  ?{res} ?p ?o . FILTER (?p not in (dcat:distribution)) }";
     :dataSource data:DataSource1 .
