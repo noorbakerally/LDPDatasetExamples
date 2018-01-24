@@ -2,7 +2,7 @@
 ## LDP-DL Technical Report: http://w3id.org/ldpdl/technical_report.pdf
 ## LDP-DL RDF Syntax and Semantics: http://w3id.org/ldpdl/
 
-This page describes experiments performed to validate the use of [LDP-DL](https://w3id.org/ldpdl/) to validate the requirements described in the its [technical report](http://w3id.org/ldpdl/technical_report.pdf). There are 6 experiments. Firstly, we describe how the experiments validate the requirements then we describe the experiments themselves. In all the experiments, the main tools that are used are:
+This page describes experiments performed to validate the use of [LDP-DL](https://w3id.org/ldpdl/) to validate the requirements described in the [technical report](http://w3id.org/ldpdl/technical_report.pdf). There are 6 experiments. Firstly, we describe how the experiments validate the requirements then we describe the experiments themselves. In all the experiments, the main tools that are used are:
 - ShapeLDP (Link to Github Repo: https://github.com/noorbakerally/ShapeLDP)
 - InterLDP (Link to Github Repo: https://github.com/noorbakerally/InterLDP)
 - POSTerLDP (Link to Github Repo: https://github.com/noorbakerally/POSTerLDP)
