@@ -1,4 +1,4 @@
-### Experiment3
+# Experiment3
 The following two datasets are considered:
 1.  https://opendata.paris.fr/explore/dataset/velib-emplacement-des-stations (GeoJSON)
 2.   https://opendata.paris.fr/explore/dataset/liste-des-stations-de-services-de-vehicules (CSV)
