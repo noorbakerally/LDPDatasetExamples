@@ -25,7 +25,7 @@ The table below summarizes how the different experiments satisfy the requirement
 | [Experiment2](https://stackedit.io/viewer#!url=https://raw.githubusercontent.com/noorbakerally/LDPDatasetExamples/master/experiment2.md) | &#10004;   |    |    |  &#10004;  | &#10004;   |
 | [Experiment3](https://stackedit.io/viewer#!url=https://raw.githubusercontent.com/noorbakerally/LDPDatasetExamples/master/experiment4.md) | &#10004;    | &#10004;   |    |    | &#10004;   |
 | [Experiment4](https://stackedit.io/viewer#!url=https://raw.githubusercontent.com/noorbakerally/LDPDatasetExamples/master/experiment4.md) | &#10004;    |  &#10004;  | &#10004;   |    |&#10004;    |
-| [Experiment5](https://stackedit.io/viewer#!url=https://raw.githubusercontent.com/noorbakerally/LDPDatasetExamples/master/experiment5.md) | &#10004;    |    |    |    | &#10004;   |
+| [Experiment5](https://stackedit.io/viewer#!url=https://raw.githubusercontent.com/noorbakerally/LDPDatasetExamples/master/experiment5.md) | &#10004;    |    |    | &#10004;   | &#10004;   |
 
 ### R1: Compatibility with the LDP standard
 In all experiments, all the LDPs generated are fully compatible with the LDP standard. But in particular, Experiment2 shows the static LDP datasets generated using ShapeLDP can be deployed on any compatible LDP server accepting POST requests. Thus, our approach for generating LDP is also compatible with all existing LDP server implementations.
