@@ -22,7 +22,7 @@ The table below summarizes how the different experiments satisfy the requirement
 |             | R1 | R2 | R3 | R4 | R5 |
 |-------------|:--:|:--:|:--:|:--:|:--:|
 | [Experiment1](https://stackedit.io/viewer#!url=https://raw.githubusercontent.com/noorbakerally/LDPDatasetExamples/master/experiment1.md) | &#10004;   |    |    |  &#10004;   |  &#10004;  |
-| [Experiment2](https://stackedit.io/viewer#!url=https://raw.githubusercontent.com/noorbakerally/LDPDatasetExamples/master/experiment2.md) | &#10004;   |    |    |    | &#10004;   |
+| [Experiment2](https://stackedit.io/viewer#!url=https://raw.githubusercontent.com/noorbakerally/LDPDatasetExamples/master/experiment2.md) | &#10004;   |    |    |  &#10004;  | &#10004;   |
 | [Experiment3](https://stackedit.io/viewer#!url=https://raw.githubusercontent.com/noorbakerally/LDPDatasetExamples/master/experiment4.md) | &#10004;    | &#10004;   |    |    | &#10004;   |
 | [Experiment4](https://stackedit.io/viewer#!url=https://raw.githubusercontent.com/noorbakerally/LDPDatasetExamples/master/experiment4.md) | &#10004;    |  &#10004;  | &#10004;   |    |&#10004;    |
 | [Experiment5](https://stackedit.io/viewer#!url=https://raw.githubusercontent.com/noorbakerally/LDPDatasetExamples/master/experiment5.md) | &#10004;    |    |    |    | &#10004;   |
