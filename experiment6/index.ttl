@@ -1,0 +1,47 @@
+@prefix : <https://w3id.org/ldpdl/#> .
+@prefix data:     <http://opensensingcity.emse.fr/LDPDesign/data/> .
+
+data:LoisirCM a :NullContainerMap;
+	:slugTemplate "Loisir";
+	:containerMap data:restaurantsCM;
+	:containerMap data:hotelsCM;
+	:containerMap data:golfsCM;
+	:containerMap data:plagesCM;
+	:containerMap data:sport_loisirsCM;
+.
+
+data:cultureCM a :NullContainerMap;
+	:slugTemplate "Culture";
+	:containerMap data:cinemasCM;
+	:containerMap data:bibliotheque_mediathequesCM;
+	:containerMap data:salle_spectaclesCM;
+.
+
+data:Communes_geolocalisesCM a :NullContainerMap;
+	:slugTemplate "Communes Geolocalises";
+	:containerMap data:Communes_geolocaliseCM;
+.
+
+data:serviceCM a :NullContainerMap;
+	:slugTemplate "Service";
+	:containerMap data:action_socialesCM;
+	:containerMap data:decheteriesCM;
+	:containerMap data:justice_securitesCM;
+	:containerMap data:vie_socialesCM;
+	:containerMap data:service_publicsCM;
+.
+
+data:pointOfInterestCM a :NullContainerMap;
+	:slugTemplate "PointOfInterest";
+	:containerMap data:chateau_monumentsCM;
+	:containerMap data:Petites_cites_de_caracteresCM;
+	:containerMap data:jardin_familiauxsCM;
+	:containerMap data:patrimoinesCM;
+	:containerMap data:parc_animalier_themesCM;
+.
+
+data:transportCM a :NullContainerMap;
+	:slugTemplate "PointOfInterest";
+	:containerMap data:mobilitesCM;
+	:containerMap data:parkingsCM;
+.

@@ -1,0 +1,19 @@
+@prefix : <https://w3id.org/ldpdl/#> .
+@prefix data:     <http://opensensingcity.emse.fr/LDPDesign/data/> .
+@prefix s:<http://lodpaddle.univ-nantes.fr/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+data:bibliotheque_mediathequesCM a :NullContainerMap;
+		:slugTemplate "bibliotheque_mediatheques";
+		:nonContainerMap data:bibliotheque_mediathequeCM;
+.
+
+data:bibliotheque_mediathequeCM a :NonContainerMap;
+	 :slugQueryTemplate "{BIND(str(?{res}) as ?nres) BIND(if(contains(?nres, '#'),true,false) as ?hash) BIND(SUBSTR(?nres,STRLEN(?nres),1) as ?lstr) BIND(if(?lstr='/',SUBSTR(?nres,0,STRLEN(?nres)),?nres) as ?fres) BIND(if(?hash,REPLACE(?fres,'.*#',''),REPLACE(?fres,'.*/','')) as ?template)}";
+	 :resourceMap data:bibliotheque_mediathequeRM;
+.
+	 
+data:bibliotheque_mediathequeRM a :ResourceMap;
+	:slugQueryTemplate "{BIND(str(?{res}) as ?nres) BIND(if(contains(?nres, '#'),true,false) as ?hash) BIND(SUBSTR(?nres,STRLEN(?nres),1) as ?lstr) BIND(if(?lstr='/',SUBSTR(?nres,0,STRLEN(?nres)),?nres) as ?fres) BIND(if(?hash,REPLACE(?fres,'.*#',''),REPLACE(?fres,'.*/','')) as ?template)}";
+	:resourceQuery "{ ?{res} rdf:type s:bibliotheque_mediatheque .}";
+	:graphQuery "CONSTRUCT { ?{res} ?p ?o . ?s ?p ?{res} . } WHERE {  { ?{res} ?p ?o . } UNION { ?s ?p ?{res} . } }" .

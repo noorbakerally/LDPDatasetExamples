@@ -1,0 +1,19 @@
+@prefix : <https://w3id.org/ldpdl/#> .
+@prefix data:     <http://opensensingcity.emse.fr/LDPDesign/data/> .
+@prefix s:<http://lodpaddle.univ-nantes.fr/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+data:hotelsCM a :NullContainerMap;
+		:slugTemplate "hotels";
+		:nonContainerMap data:hotelCM;
+.
+
+data:hotelCM a :NonContainerMap;
+	 :slugQueryTemplate "{BIND(str(?{res}) as ?nres) BIND(if(contains(?nres, '#'),true,false) as ?hash) BIND(SUBSTR(?nres,STRLEN(?nres),1) as ?lstr) BIND(if(?lstr='/',SUBSTR(?nres,0,STRLEN(?nres)),?nres) as ?fres) BIND(if(?hash,REPLACE(?fres,'.*#',''),REPLACE(?fres,'.*/','')) as ?template)}";
+	 :resourceMap data:hotelRM;
+.
+	 
+data:hotelRM a :ResourceMap;
+	:slugQueryTemplate "{BIND(str(?{res}) as ?nres) BIND(if(contains(?nres, '#'),true,false) as ?hash) BIND(SUBSTR(?nres,STRLEN(?nres),1) as ?lstr) BIND(if(?lstr='/',SUBSTR(?nres,0,STRLEN(?nres)),?nres) as ?fres) BIND(if(?hash,REPLACE(?fres,'.*#',''),REPLACE(?fres,'.*/','')) as ?template)}";
+	:resourceQuery "{ ?{res} rdf:type s:Hotel .}";
+	:graphQuery "CONSTRUCT { ?{res} ?p ?o . ?s ?p ?{res} . } WHERE {  { ?{res} ?p ?o . } UNION { ?s ?p ?{res} . } }" .
